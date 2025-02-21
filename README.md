@@ -67,7 +67,7 @@ Lists entities. You can filter by IDs by passing an array in the ids parameter.
 **Body:**
 ```json
 {
-  "ids": [array of integers]
+  "ids": array of integer
 }
 
 ```
