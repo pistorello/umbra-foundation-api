@@ -155,5 +155,5 @@ python app.py
 ## Access the API at http://localhost:5000
 
 # Technologies
-## Flask
-## Peewee
+* Flask
+* Peewee
