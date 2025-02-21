@@ -1,3 +1,5 @@
+# MODEL
+
 from peewee import *
 import db_connection
 import datetime
