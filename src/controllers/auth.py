@@ -1,3 +1,5 @@
+# CONTROLLER
+
 from flask import jsonify
 from models.user import Users
 from peewee import *
@@ -16,7 +18,7 @@ def register_user(username, password):
         return jsonify({"message": "usuário já existe."}), 409
     
     except Exception as e:
-        return jsonify({"message": "falha ao registrar usuário.", "error": str(e)}), 500
+        return jsonify({"message": "erro interno.", "error": str(e)}), 500
     
 def login_user(username, password):
     if not username or not password:
