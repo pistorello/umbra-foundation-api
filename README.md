@@ -157,3 +157,4 @@ python app.py
 # Technologies
 * Flask
 * Peewee
+* MariaDB
