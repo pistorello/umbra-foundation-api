@@ -1,3 +1,0 @@
-mysqldump -u root -pMetadados01 historiar > C:/src/backup.sql //para backup do banco de dados (MariaDB)
-
-mysql -u root -pMetadados01 teste < C:/src/backup.sql // para restaurar um banco de dados (MariaDB)

@@ -10,7 +10,7 @@ def create(entity):
     
     try:
         Entities.create(name=entity.get("name"), description=entity.get("description"), image=entity.get("image"))
-        return jsonify({"message": "entidade criado com sucesso."}), 201
+        return jsonify({"message": "entidade criada com sucesso."}), 201
     
     except Exception as e:
         return jsonify({"message": "erro interno.", "error": str(e)}), 500
